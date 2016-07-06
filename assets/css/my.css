@@ -1,3 +1,36 @@
 /* John Tracy 2016 */
 
+body {
+	background-color: black;
+	background-image: url(../images/mybg.svg); 
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: 75%;
+}
 
+.my-nav {
+	float: right;
+}
+
+.my-nav-bg, #jumbo-home{
+	background: transparent;
+}
+#jumbo-home {
+	color: white;
+
+}
+#jumbo-text{
+	text-align: center;
+}
+.form-holder {
+	background: transparent;
+	color: white;
+}
+.form-area {
+	background-color: white;
+	opacity: 0.3;
+	color: #333333;
+}
+#msgSubmit {
+	color: white;
+}
