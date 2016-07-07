@@ -2,12 +2,12 @@ var formSuccess = function(){
 	$('#contactEmail').val('');
 	$('#contactName').val('');
 	$('#contactMessage').val('');
-	$('#msgSubmit').removeClass("hidden");
+	$('#successModal').modal('show');
 
 };
 
 var submitForm = function() {
-	
+
 	var email = $('#contactEmail').val().trim();
 	var name = $('#contactName').val().trim();
 	var message = $('#contactMessage').val().trim();

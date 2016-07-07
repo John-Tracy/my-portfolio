@@ -9,13 +9,18 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/my.css">
 	<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 </head>
 <body>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-6 col-sm-6 col-xs-10">
 				<ol class="breadcrumb my-nav-bg" >
-					<li><a href="https://github.com/John-Tracy/my-portfolio" target="new">Pop the hood <span class="glyphicon glyphicon-cog"></span></a></li>
+					<li><a href="https://github.com/John-Tracy/my-portfolio" target="new">Pop the hood <span class="glyphicon glyphicon-wrench"></span></a></li>
 				</ol>
 			</div>
 			<div class="col-md-6 col-sm-6 col-xs-10">
@@ -50,7 +55,6 @@
 						    	<textarea id="contactMessage" placeholder="What Can I Do For You?" class="form-control form-area" required></textarea>
 						</div>
 						<button type="submit" class="btn btn-info btn-lg center-block form-area" id="form-submit">Submit</button>
-						<div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div>
 				    </form>
 				  </div>
 				</div>
@@ -63,9 +67,26 @@
 				</footer>
 	</div>
 
+		<!-- Modal -->
+<div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Thank You!</h4>
+	      </div>
+	      <div class="modal-body">
+	        <h2><span class="glyphicon glyphicon-send"></span></h2> <h4>You will be hearing from me shortly...</h4>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+</div>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
 
     <script type="text/javascript" src="assets/js/scripts.js"></script>
 
